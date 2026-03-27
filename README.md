@@ -6,7 +6,7 @@ GPT pro extended (5.4?) generated code, took me 21 iterations, some manual troub
 2. you can choose on startup if the projectstandards setting should be respected
 3. (optionally) you could introduce a new boolean property (on all visible objects), call "tpinclude", if true, then shows up
 
-This is not a finalized tool, but more a proof of concept, sample code. Inserting symbols works, but many features around it are missing, e.g. the scaling on insert option, the auto tag insertion, ... 
+This is not a finalized tool, just a test, a proof of concept, sample code, it has to be reviewed before using anyhow. Inserting symbols works, but many features around it are missing, e.g. the scaling on insert option, the auto tag insertion, ... 
 
 <br><img src=Plant3DProjectRuntimePalettes_screenshot.png width=400><br>
 

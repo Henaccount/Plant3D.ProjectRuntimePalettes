@@ -77,7 +77,7 @@ If the property is missing on at least one class, it is ignored for that project
 
 ## Deployment note
 
-You could use the autoloader package, it would look like follows, the xml is attached:
+You could use the autoloader package, it would look like follows, the xml is attached. Then start the tool with command "ProjectPIDpalettes".
 
 <br><img src=Plant3DProjectRuntimePalettes_deployment.png><br>
 

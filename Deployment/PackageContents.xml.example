@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage
+  SchemaVersion="1.0"
+  AppVersion="1.0.0"
+  Name="Plant3D.ProjectRuntimePalettes"
+  Description="Runtime project-driven P&ID palettes for Plant 3D 2026"
+  ProductCode="{3D2B2ED8-1F56-4D8B-97A0-72B0A9CF6B6D}"
+  UpgradeCode="{34B7C975-7589-43DF-A158-78BB7D315D84}">
+  <CompanyDetails Name="Custom" Url="https://example.invalid" />
+  <Components>
+    <RuntimeRequirements OS="Win64" Platform="AutoCAD*" SeriesMin="R25.1" SeriesMax="R25.1" />
+    <ComponentEntry AppName="Plant3D.ProjectRuntimePalettes"
+                    ModuleName="./Contents/2026/Plant3D.ProjectRuntimePalettes.dll"
+                    AppDescription="Runtime project-driven P&ID palettes for Plant 3D 2026"
+                    LoadOnAutoCADStartup="False" />
+  </Components>
+</ApplicationPackage>

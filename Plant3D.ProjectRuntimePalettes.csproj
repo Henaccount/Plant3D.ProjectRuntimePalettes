@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <GenerateDependencyFile>true</GenerateDependencyFile>
+    <AssemblyName>Plant3D.ProjectRuntimePalettes</AssemblyName>
+    <RootNamespace>Plant3D.ProjectRuntimePalettes</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AutoCADPlant3DRoot Condition="'$(AutoCADPlant3DRoot)' == ''">C:\Program Files\Autodesk\AutoCAD 2026</AutoCADPlant3DRoot>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AcCoreMgd">
+      <HintPath>$(AutoCADPlant3DRoot)\AcCoreMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AcDbMgd">
+      <HintPath>$(AutoCADPlant3DRoot)\AcDbMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AcMgd">
+      <HintPath>$(AutoCADPlant3DRoot)\AcMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AcWindows">
+      <HintPath>$(AutoCADPlant3DRoot)\AcWindows.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="PnPProjectManagerMgd">
+      <HintPath>..\..\..\inc-x64\PnPProjectManagerMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.0" />
+  </ItemGroup>
+</Project>

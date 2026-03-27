@@ -8,7 +8,7 @@ GPT pro extended (5.4?) generated code, took me 21 iterations, some manual troub
 
 This is not a finalized tool, but more a proof of concept, sample code. Inserting symbols works, but many features around it are missing, e.g. the scaling on insert option, the auto tag insertion, ... 
 
-<br><img src=Plant3DProjectRuntimePalettes_screenshot.png><br>
+<br><img src=Plant3DProjectRuntimePalettes_screenshot.png width=400><br>
 
 See how it works here:
 

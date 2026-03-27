@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="AutoCAD" Name="Project Tool Palette" Description="Project Tool Palette" AppVersion="1.0.0" FriendlyVersion="1.0.0" ProductType="Application" SupportedLocales="Enu">
+  <CompanyDetails Name="Autodesk, Inc." Url="www.autodesk.com" Email="noreply@autodesk.com" />
+  <RuntimeRequirements OS="Win64" Platform="AutoCAD*" SeriesMin="R25.0" SeriesMax="R25.1" />
+  <Components Description="Windows parts">
+    <RuntimeRequirements OS="Win64" Platform="AutoCAD*" SeriesMin="R25.0" SeriesMax="R25.1" />
+    <ComponentEntry AppName="Plant3D.ProjectRuntimePalettes" Version="1.0.0" ModuleName="./Contents/Win64/Plant3D.ProjectRuntimePalettes.dll" AppDescription="Plant3D.ProjectRuntimePalettes" LoadOnAutoCADStartup="True" LoadOnCommandInvocation="False" LoadOnAppearance="True">
+    </ComponentEntry>
+  </Components>
+  <DisplayInAppManager>True</DisplayInAppManager>
+</ApplicationPackage>
